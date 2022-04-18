@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 97.5%;
+    margin: 0 auto;
+}
+.main {
+    min-height: 500px;
+    margin: 10px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid aqua;
+    padding: 10px;
+  }
+.footer {
+    height: 250px;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: aqua;
+    border-bottom: 1px solid #dee2e6!important;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-item {
+    
+    padding: 0;
+    margin: 0;
+}
+.nav-link{
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 16px;
+    color: black;
+}
+.nav-link:hover{
+    background-color: lightgray;
+    color: aqua;
+    font-weight: 600;
+}
+.brand {
+    width: 180px;
+    font-weight: 700;
+}
+.card {
+    background-color: aqua;
+    border-radius: .375rem;
+    margin: 25px 30px;
+    padding: 1.5rem;
+}
+.card p {
+    margin-top: 10px;
+}
+/*
+form
+*/
+.frm {
+    margin-top: 25px;
+}
+.fld {
+    margin-bottom: .75rem;
+    display: flex;
+    align-items: center;
+}
+.lbl {
+    width: 150px;
+    text-align: left;
+    margin-right: .5rem;
+}
+.ctrl {
+    width: 350px;
+    padding: .25rem;
+    border: solid 1px #ccc;
+    border-radius: .375rem;
+}
+.ctrl[type=file] {
+    width: 350px;
+    padding: 0;
+    border: solid 1px #ccc;
+    border-radius: .375rem;
+}
+.ctrl::file-selector-button{
+    padding: 0.375rem 0.75rem;
+ 
+  border-radius: .375rem 0 0 .375rem; 
+  background-color: #e9ecef;
+  border-width: 0;
+ 
+}
+.btn {
+    width: 350px;
+    height: 27px;
+    padding: .25rem;
+    border: solid 1px #ccc;
+    border-radius: .3rem;
+    
+    font-weight: 600;
+}
+.success{
+    background-color: aqua;
+    color: black;
+}
+.thumb {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#msg {
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: solid 1px #ccc;
+    margin: 15px;
+    border-radius: .5rem;
+}
+#msg h5 {
+    width: 100%;
+}
+#p {
+    width: 120px;
+    padding: 5px;
+}
+#error {
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: solid 1px #ccc;
+    margin: 15px;
+    border-radius: .5rem;
+    padding: 15px;
+    color: red;
+}
+#error h5 {
+    width: 100%;
+}

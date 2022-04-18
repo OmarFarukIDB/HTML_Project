@@ -1,0 +1,10 @@
+56-68
+12 MCQ - 11.40 PM (No Class)
+
+16 Evidence - 12 AM (Class will be contiunue) 
+- Form submit by nodeJs 
+	- image 
+	- dropdown 
+	- date
+	- time
+	- Validation own javaScript
